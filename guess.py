@@ -50,3 +50,6 @@ def pguessgame():
 
     if guesses == 0:
         print('Suas tentativas acabaram. O número secreto era', secret_number)
+
+if(__name__ == "__main__"):
+    pguessgame()
